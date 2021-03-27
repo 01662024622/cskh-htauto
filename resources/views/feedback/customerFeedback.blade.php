@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>HTAuto</title>
-    <link rel="shortcut icon" href="../../../public/crop-logo.png">
+    <link rel="shortcut icon" href="/crop-logo.png">
     <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css"
           rel="stylesheet" type="text/css">
