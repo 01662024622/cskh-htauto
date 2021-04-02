@@ -40,7 +40,7 @@ $("#add-form").submit(function (e) {
         processData: false,
         contentType: false,
         success: function (response) {
-            window.location.replace("https://cskh.htauto.vn//HT02/create");
+            window.location.replace("http://htauto.com.vn");
         }, error: function (xhr, ajaxOptions, thrownError) {
             toastr.error(thrownError);
         },

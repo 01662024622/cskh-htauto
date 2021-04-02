@@ -12,7 +12,7 @@ class CustomerFeedbackController extends ResouceController
 {
     function __construct(CustomerFeedbackService $service)
     {
-        parent::__construct($service, array('active' => 'report_feedback', 'group' => 'manager'));
+        parent::__construct($service, array('active' => 'feedback', 'group' => 'feedback'));
     }
 
     public function store(Request $request)
@@ -27,11 +27,6 @@ class CustomerFeedbackController extends ResouceController
     public function show($id)
     {
         return view("feedback.customerFeedback",['code'=>$id]);
-    }
-
-    public function index()
-    {
-        return view("errors.404");
     }
 
     public function create(){
