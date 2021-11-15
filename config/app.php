@@ -191,7 +191,9 @@ return [
         App\Providers\HT40RepositoryProvider::class,
         App\Providers\HT40ServiceProvider::class,
         App\Providers\HT50RepositoryProvider::class,
-        App\Providers\HT50ServiceProvider::class
+        App\Providers\HT50ServiceProvider::class,
+        App\Providers\HT11ServiceProvider::class,
+        App\Providers\HT11RepositorProvider::class
 
 
     ],

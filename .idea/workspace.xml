@@ -20,13 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d412680-2c32-4551-8f6f-db519467bcb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/survey/emoji2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/feedback/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HT11/InsuranceManagerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/insurance/insurance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/insurance/manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/insurance/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/insurance/indexManager.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/insurance/noInsurance.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HT10/CustomerFeedbackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HT10/CustomerFeedbackController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/survey/emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/survey/emoji.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/AbstractRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/AbstractRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/survey/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/survey/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/apartment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/apartment/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/feedback/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/feedback/customer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/package-versions-deprecated/src/PackageVersions/Versions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/package-versions-deprecated/src/PackageVersions/Versions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +56,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,11 +197,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public\css\insurance" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public" />
       <recent name="C:\Users\data\Documents\PHP\well-known\public\js\survey" />
       <recent name="C:\Users\data\Documents\PHP\well-known\resources\views" />
     </key>
@@ -196,6 +228,10 @@
       <workItem from="1616808910699" duration="3286000" />
       <workItem from="1616812458344" duration="6831000" />
       <workItem from="1617348387489" duration="2650000" />
+      <workItem from="1636624467883" duration="10496000" />
+      <workItem from="1636682657883" duration="5406000" />
+      <workItem from="1636798988326" duration="20359000" />
+      <workItem from="1636937772652" duration="7776000" />
     </task>
     <servers />
   </component>
@@ -212,15 +248,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1616821015458">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="675" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636777052711">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616821015458" />
-    <state x="-1253" y="253" width="585" height="534" key="find.popup" timestamp="1616810515422">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="675" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1636777052711" />
+    <state x="690" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1636796518382">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1253" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616810515422" />
+    <state x="690" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1636796518382" />
+    <state x="748" y="239" key="NewPhpClassDialog" timestamp="1636777038729">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="748" y="239" key="NewPhpClassDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1636777038729" />
+    <state x="667" y="249" width="585" height="534" key="find.popup" timestamp="1636776687377">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="667" y="249" width="585" height="534" key="find.popup/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1636776687377" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1636798135808">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1636798135808" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/feedback/customer.js</url>
+          <line>66</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

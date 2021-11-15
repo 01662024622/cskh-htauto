@@ -157,3 +157,17 @@ div {
     font-size: 10px!important;
     padding-left: 20px!important;
 }
+#menuItems{
+    max-height: 200px;
+    overflow: auto;
+}
+#dropdown_coins{
+    padding-left: 10px;
+    background-color: transparent !important;
+    color: #495057;
+
+}
+#dropdown_coins{
+    width: 100%;
+    text-align: left;
+}
