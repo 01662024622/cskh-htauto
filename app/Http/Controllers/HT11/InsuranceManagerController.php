@@ -4,14 +4,17 @@ namespace App\Http\Controllers\HT11;
 
 use App\Http\Controllers\Base\ResouceController;
 use App\Models\HT11\Insurance;
+use App\Services\HT00\CategoryService;
 use App\Services\HT11\InsuranceService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\View;
 
 
 class InsuranceManagerController extends ResouceController
 {
     function __construct(InsuranceService $service)
     {
+        $this->middleware('auth');
         parent::__construct($service, array('active' => 'insurance', 'group' => 'feedback'), $blade = '.indexManager');
     }
 

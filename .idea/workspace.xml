@@ -20,33 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d412680-2c32-4551-8f6f-db519467bcb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HT11/InsuranceManagerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/insurance/insurance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/insurance/manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/insurance/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/insurance/indexManager.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/insurance/noInsurance.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/AbstractRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/AbstractRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/survey/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/survey/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/apartment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/apartment/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/feedback/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/feedback/customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/package-versions-deprecated/src/PackageVersions/Versions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/package-versions-deprecated/src/PackageVersions/Versions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HT11/InsuranceManagerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HT11/InsuranceManagerController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +206,9 @@
       <workItem from="1636624467883" duration="10496000" />
       <workItem from="1636682657883" duration="5406000" />
       <workItem from="1636798988326" duration="20359000" />
-      <workItem from="1636937772652" duration="7776000" />
+      <workItem from="1636937772652" duration="8370000" />
+      <workItem from="1636966324592" duration="586000" />
+      <workItem from="1637642094947" duration="169000" />
     </task>
     <servers />
   </component>
@@ -255,9 +232,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="675" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1636777052711" />
-    <state x="690" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1636796518382">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="-1230" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637642237675">
+      <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
+    <state x="-1230" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1637642237675" />
     <state x="690" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1636796518382" />
     <state x="748" y="239" key="NewPhpClassDialog" timestamp="1636777038729">
       <screen x="0" y="0" width="1920" height="1032" />
@@ -278,7 +256,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/js/feedback/customer.js</url>
           <line>66</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
